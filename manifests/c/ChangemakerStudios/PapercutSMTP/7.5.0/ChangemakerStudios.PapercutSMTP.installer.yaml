@@ -1,0 +1,27 @@
+PackageIdentifier: ChangemakerStudios.PapercutSMTP
+PackageVersion: 7.5.0
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.17763.0
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/ChangemakerStudios/Papercut-SMTP/releases/download/7.5.0/PapercutSMTP-win-x64-stable-Setup.exe
+  InstallerSha256: FB75E9AC967885E8C25E679A7E8B6C1661CBCFB68B080741A86CADED684340BF
+- Architecture: x86
+  InstallerUrl: https://github.com/ChangemakerStudios/Papercut-SMTP/releases/download/7.5.0/PapercutSMTP-win-x86-stable-Setup.exe
+  InstallerSha256: E506532A1E4CAB3B2DB6AF38F06199B2F04D5E92711FFA71D207D0C3B95CEBD6
+- Architecture: arm64
+  InstallerUrl: https://github.com/ChangemakerStudios/Papercut-SMTP/releases/download/7.5.0/PapercutSMTP-win-arm64-stable-Setup.exe
+  InstallerSha256: 025BF933EA2D3556A30A40200D6DB1B51FB3ED2201D388271208298D14E7F213
+ManifestType: installer
+ManifestVersion: 1.6.0
